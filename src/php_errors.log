@@ -1,0 +1,100 @@
+[08-Feb-2023 12:13:24 UTC] PHP Warning:  require(vendor/autoload.php): Failed to open stream: No such file or directory in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php on line 10
+[08-Feb-2023 12:13:24 UTC] PHP Stack trace:
+[08-Feb-2023 12:13:24 UTC] PHP   1. {main}() C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php:0
+[08-Feb-2023 12:13:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.;C:\php\pear') in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php on line 10
+[08-Feb-2023 12:15:46 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer" not found in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php on line 13
+[08-Feb-2023 12:18:02 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer" not found in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php on line 13
+[08-Feb-2023 12:28:52 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\PHPMailer" in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php:2017
+Stack trace:
+#0 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 8 Fe...', '--b1=_Q2vBHorRn...')
+#1 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php(43): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2017
+[08-Feb-2023 12:29:26 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php on line 13
+[08-Feb-2023 12:29:42 UTC] PHP Fatal error:  Uncaught Error: Class "SMTP" not found in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php:19
+Stack trace:
+#0 {main}
+  thrown in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php on line 19
+[08-Feb-2023 12:29:52 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\PHPMailer" in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php:2017
+Stack trace:
+#0 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 8 Fe...', '--b1=_e3RgYYRCF...')
+#1 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php(46): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2017
+[08-Feb-2023 12:30:13 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\PHPMailer" in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php:2017
+Stack trace:
+#0 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 8 Fe...', '--b1=_RU907vFw7...')
+#1 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php(46): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2017
+[08-Feb-2023 12:30:17 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\PHPMailer" in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php:2017
+Stack trace:
+#0 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 8 Fe...', '--b1=_TYieD0a9J...')
+#1 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php(46): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2017
+[08-Feb-2023 12:31:53 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\PHPMailer" in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php:2017
+Stack trace:
+#0 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 8 Fe...', '--b1=_DMtiutuyi...')
+#1 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php(46): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2017
+[08-Feb-2023 13:04:30 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\PHPMailer" in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php:2017
+Stack trace:
+#0 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 8 Fe...', '--b1=_X6dPdEeyC...')
+#1 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php(46): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2017
+[09-Feb-2023 12:27:00 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\PHPMailer" in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php:2017
+Stack trace:
+#0 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 9 Fe...', '--b1=_QtDywZPGO...')
+#1 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php(46): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2017
+[09-Feb-2023 14:18:00 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\PHPMailer" in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php:2017
+Stack trace:
+#0 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 9 Fe...', '--b1=_kyJtYHPMj...')
+#1 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php(46): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2017
+[09-Feb-2023 15:16:30 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\PHPMailer" in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php:2017
+Stack trace:
+#0 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 9 Fe...', '--b1=_LHsehd2yF...')
+#1 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php(46): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2017
+[09-Feb-2023 15:18:53 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\PHPMailer" in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php:2017
+Stack trace:
+#0 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 9 Fe...', '--b1=_tc2gZhnVp...')
+#1 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php(46): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2017
+[09-Feb-2023 15:21:23 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\PHPMailer" in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php:2017
+Stack trace:
+#0 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 9 Fe...', '--b1=_vj6NN88SH...')
+#1 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\src\sample.php(46): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 2017
