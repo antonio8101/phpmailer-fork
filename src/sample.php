@@ -10,7 +10,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP ;
 
-require 'C:\Users\franc\PhpstormProjects\php_docker_live\samples\phpmailer\vendor\autoload.php';
+require '../vendor/autoload.php';
 
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
